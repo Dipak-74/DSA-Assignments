@@ -1,0 +1,47 @@
+import java.util.*;
+class BinaryDiamond{
+	public static void main(String []args){
+		Scanner sc=new Scanner(System.in);
+		System.out.print("n = ");
+		int n=sc.nextInt();
+		
+		for(int i=1;i<=n;i++){
+			for(int s=1;s<=n-i;s++){
+				System.out.print(" ");
+
+			}
+			for(int j=i;j>=1;j--){
+				System.out.print(j%2+" ");
+				
+			}
+			System.out.println();
+		}	
+		
+		for(int i=n-1;i>=1;i--){
+			for(int s=1;s<=n-i;s++){
+				System.out.print(" ");
+			}
+			for(int j=i;j>=1;j--){
+				System.out.print(j%2+" ");
+
+			}
+			System.out.println();
+		}
+	}
+}
+
+
+/*/
+Output -
+
+n = 4
+   1
+  0 1
+ 1 0 1
+0 1 0 1
+ 1 0 1
+  0 1
+   1
+
+
+/*/
