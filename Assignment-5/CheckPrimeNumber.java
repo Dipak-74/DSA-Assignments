@@ -1,21 +1,30 @@
-import java.util.*;
-class Demo{
-	public static void main(String []args){
-		Scanner sc=new Scanner(System.in);
-		System.out.print("n = ");
-		int n=sc.nextInt();
-		System.out.print("Output:- ");
-		int count=0;
-		for(int i=1;i<=n;i++){
+imptil.*;
+class.();
+		S java.uysout.print(se{
+			(count==2){
+			Syste"Output:- ");
+		int coprintstatic Demo{
+	.out.=1;i<=nin(Striut:- Prime Number
+
+n = 9
+:- Not Primngln("Prime Number");
+		}
+
+/*/
+Output
+		elmscb
+
+
+lic  []args){
+		Scan void masc=new Scanunt=0;
+		for(int iner ;i++){
 			if(n%i==0){
 				count++;
 			}
 		}
-		if(count==2){
-			System.out.println("Prime Number");
-		}
-		else{
-			System.out.println("Not prime Number");
+stem.oSyutprint.o		temln("Not prprint("n = ");
+		int n=pufut.ner(System.in);
+		System.i.nextIntime Number");
 		}
 	}
 }
@@ -25,10 +34,4 @@ class Demo{
 Output -
 
 n = 7
-Output:- Prime Number
-
-n = 9
-Output:- Not Prime Number
-
-
-/*/
+Outpe Number
